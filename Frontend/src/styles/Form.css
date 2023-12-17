@@ -1,0 +1,98 @@
+/* Base styles for .yogaHeader */
+.yogaHeader {
+    text-align: center;
+    font-size: 5vw;
+    color: rgb(91, 245, 14);
+    background-color: black;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .yogaHeader {
+        font-size: 7vw;
+        margin-top: 40px; /* Adjusted margin top for better spacing */
+    }
+}
+
+/* Container for the form */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    margin: 10vh auto; /* Centering the container */
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Container for the image */
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for input fields */
+.formContainer > input {
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    margin: 15px 0;
+    width: 100%;
+    transition: border-color 0.5s;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.formContainer > input:focus {
+    border-bottom: 2px solid orange;
+}
+
+/* Styling for the batch timing section */
+.formContainer .batchTiming .batchOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.formContainer .batchTiming .batchOptions div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.formContainer .batchTiming .batchOptions div > * {
+    margin: 0 5px;
+}
+
+/* Styling for the payment button */
+.formContainer .toPayment {
+    background: none;
+    border: none;
+    margin: 15px 0;
+    transition: 0.5s;
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formContainer .toPayment:hover {
+    color: white;
+    background-color: black;
+}

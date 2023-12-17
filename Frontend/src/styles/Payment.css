@@ -1,0 +1,111 @@
+/* Input styles */
+input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    transition: 0.5s;
+    font-size: 16px;
+    padding: 8px;
+}
+
+input:focus {
+    border-bottom: 2px solid #3399ff;
+}
+
+/* Payment container styles */
+.paymentContainer {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.paymentContainer .amountDisclaimer {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.paymentContainer .optionsHeader {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Button styles */
+.paymentContainer .toCompletion {
+    background: none;
+    border: none;
+    margin: 10px 0;
+    transition: 0.5s;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3399ff;
+    color: #fff;
+}
+
+.paymentContainer .toCompletion:hover {
+    background-color: #1e6fd4;
+}
+
+/* Loader styles */
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    display: none;
+}
+
+/* Option div styles */
+.paymentContainer .optionDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.paymentContainer .optionDiv > label {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Card details div styles */
+.paymentContainer .cardDetailsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.paymentContainer .cardDetailsDiv > * {
+    margin: 10px 0;
+}
+
+/* Border styles for payment options */
+.paymentContainer .upiDiv,
+.paymentContainer .cardDiv {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.paymentContainer .upiDiv:hover,
+.paymentContainer .cardDiv:hover {
+    border-color: #3399ff;
+    box-shadow: 0 0 10px rgba(51, 153, 255, 0.5);
+}

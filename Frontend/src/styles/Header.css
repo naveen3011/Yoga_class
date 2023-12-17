@@ -1,0 +1,27 @@
+/* Base styles for .yogaHeader */
+.yogaHeader {
+    text-align: center;
+    width: 100%;
+    font-size: 3vw;
+    color: rgb(91, 245, 14);
+    background-color: black;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    display: block; /* By default, show the header */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 800px) {
+    .yogaHeader h1 {
+        display: block; /* Show the welcome text */
+    }
+
+    .yogaHeader {
+        padding: 10px;
+    }
+}

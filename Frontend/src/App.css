@@ -1,0 +1,31 @@
+/* Apply responsive styles to the Form component */
+.Form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  max-width: 100%; /* Set maximum width for the form */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .Header {
+    font-size: 5vw;
+  }
+
+  /* Adjusting top margin for smaller screens */
+  .Form {
+    margin: 10px;
+    margin-top: 30px; /* Increase the top margin for better separation */
+  }
+
+  .Payment,
+  .Completion {
+    margin: 10px;
+  }
+}
