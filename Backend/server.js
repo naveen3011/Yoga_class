@@ -39,9 +39,14 @@ connection.connect((err) => {
 
 
 
-// app.use('/',async(req,res)=>{
-//   return res.json({"welcome to flex app yoga":"flex"})
-// })
+app.use('/', async (req, res) => {
+  try {
+    res.json({ "welcome_to_flex_app_yoga": "flex" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 app.use("/user",userRouter)
 app.use("/payment",paymentRouter)
 
