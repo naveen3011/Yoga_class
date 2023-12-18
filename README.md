@@ -8,6 +8,7 @@ Yoga_class is a Full Stack Yoga Registration application built using Node.js, Ex
 
 - **Backend:** Hosted on onrender - [Backend Link](https://yoga-class-toao.onrender.com/welcome)
 - **Frontend:** Hosted on Netlify - [Frontend Link](https://yogank.netlify.app/)
+- **Mysql Database:** Hosted on freesqldatabase.com
 
 ### Run Locally
 
@@ -45,10 +46,6 @@ Yoga_class is a Full Stack Yoga Registration application built using Node.js, Ex
 ### Entity-Relationship Diagram (E-R Diagram)
 
 ![ER Diagram](https://raw.githubusercontent.com/naveen3011/Yoga_class/main/images/ER.jpg)
-
-### Nodemailer Integration
-
-- Utilized Nodemailer to send confirmation emails to users upon registration.
 
 ### Backend API Response Example
 
