@@ -6,7 +6,7 @@ Yoga_class is a Full Stack Yoga Registration application built using Node.js, Ex
 
 ### Hosting
 
-- **Backend:** Hosted on onrender - [Backend Link](https://yoga-class-toao.onrender.com)
+- **Backend:** Hosted on onrender - [Backend Link](https://yoga-class-toao.onrender.com/welcome)
 - **Frontend:** Hosted on Netlify - [Frontend Link](https://yogank.netlify.app/)
 
 ### Run Locally
